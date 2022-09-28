@@ -12,12 +12,22 @@ const Trending = () =>{
             setMovies(response.data.results)
         })
     },[])
-
+    const myBG = {
+        height:'auto' ,
+        background: '#171717',
+      };
+    const Title = {
+        fontSize: '4rem',
+        fontWeight: '800',
+        lineHeight: '1',
+        textShadow: '2px 2px black',
+        color: "white",
+      };
     return(
-        <div>
+        <div style={myBG}>
             <Container>
             <br />
-            <h1 className=" text-center" id="trending">TRENDING MOVIES</h1>
+            <h1 className=" text-center" id="trending" style={Title}>TRENDING MOVIES</h1>
             <br />
                 <Row>
                     {movies.map((result, index)=>{

@@ -4,7 +4,7 @@ import Intro from './component/Intro';
 import SuperHero from './component/SuperHero';
 import Trending from './component/Trending'
 import ListFilm from './component/ListFilm';
-
+import "./App.css"
 
 
 function App() {

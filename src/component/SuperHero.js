@@ -5,12 +5,24 @@ import robinhood from '../asset/images/superhero/robinhood.jpg'
 import spiderman from '../asset/images/superhero/spiderman-cover.jpg'
 import batman from '../asset/images/superhero/batman.jpg'
 import superman from '../asset/images/superhero/superman.jpg'
+
+
 const Superhero = () =>{
+
+    const Title = {
+        fontSize: '4rem',
+        fontWeight: '800',
+        lineHeight: '1',
+        textShadow: '2px 2px black',
+        color: "black",
+      };
+
+
     return(
         <div>
             <Container>
             <br />
-            <h1 className="text-center">superhero MOVIES</h1>
+            <h1 className="text-center" style={Title}>superhero MOVIES</h1>
             <br />
                 <Row>
                     <Col md={4} className="movieWrapper" id="superhero">
