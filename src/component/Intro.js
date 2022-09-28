@@ -10,7 +10,7 @@ const Intro = () =>{
             <h1 className='title'>Selamat Datang</h1>
             <h1 className='title'> ga pake arcis</h1>
             <h1 className='introButtom mt-3 text-center' >
-            <Button as={Link} to = "/SuperHero" variant='dark'>Lihat Semua List</Button>
+            <Button as={Link} to = "/ListFilm" variant='dark'>Lihat Semua List</Button>
             </h1>
             </Col>
           </Row>

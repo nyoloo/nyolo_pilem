@@ -3,6 +3,7 @@ import SharedLayout from './SharedLayout';
 import Intro from './component/Intro';
 import SuperHero from './component/SuperHero';
 import Trending from './component/Trending'
+import ListFilm from './component/ListFilm';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route index element={<Intro />} />
           <Route path='Trending' element={<Trending />} />
           <Route path='SuperHero' element={<SuperHero />} />
+          <Route path='ListFilm' element={<ListFilm />} />
         </Route>
       </Routes>
     </div>
