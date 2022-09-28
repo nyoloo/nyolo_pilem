@@ -1,11 +1,9 @@
 import SuperHero from './SuperHero';
 import Trending from './Trending'
-
 function ListFilm() {
     return (
       <div>
        
-  
         <div className="trending">
           <Trending />
         </div>

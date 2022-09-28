@@ -1,14 +1,21 @@
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 const Intro = () =>{
+  const Title = {
+    fontSize: '4rem',
+    fontWeight: '800',
+    lineHeight: '1',
+    textShadow: '2px 2px black',
+    color: "white",
+  };
     return(
-        <div className='myB'>
+        <div style={Title}>
         <Container className='text-center d-flex justify-content-center
         align-item-center '>
           <Row>
             <Col>
-            <h1 className='title'>Selamat Datang</h1>
-            <h1 className='title'> ga pake arcis</h1>
+            <h1  style={Title}>Selamat Datang</h1>
+            <h1  style={Title}> ga pake arcis</h1>
             <h1 className='introButtom mt-3 text-center' >
             <Button as={Link} to = "/ListFilm" variant='dark'>Lihat Semua List</Button>
             </h1>

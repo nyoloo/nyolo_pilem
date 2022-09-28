@@ -5,11 +5,15 @@ import SuperHero from './component/SuperHero';
 import Trending from './component/Trending'
 import ListFilm from './component/ListFilm';
 
-function App() {
-  return (
-    <div className='myBG'>
 
-    
+
+function App() {
+  const myBG = {
+    height:'100vh' ,
+    background: '#171717',
+  };
+  return (
+    <div style={myBG}>
    <BrowserRouter>
    <div className='Intro'>
    <Routes>
