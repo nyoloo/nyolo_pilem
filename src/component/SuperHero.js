@@ -9,17 +9,19 @@ import superman from '../asset/images/superhero/superman.jpg'
 
 const Superhero = () =>{
 
+    const myBG = {
+        height:'auto' ,
+        background: '#171717',
+      };
     const Title = {
         fontSize: '4rem',
         fontWeight: '800',
         lineHeight: '1',
         textShadow: '2px 2px black',
-        color: "black",
+        color: "white",
       };
-
-
     return(
-        <div>
+        <div style={myBG}>
             <Container>
             <br />
             <h1 className="text-center" style={Title}>superhero MOVIES</h1>
